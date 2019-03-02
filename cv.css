@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(53, 23, 44);
+
+}
+main{
+    position: absolute;
+    height: 1010px;
+    width: 630px;
+    margin: -100px 0 0 -200px;
+    top: 15%;
+    left: 42%;
+    padding: 25px;
+    background-color:rgba(232, 208, 224,0.5);
+
+}
+figcaption{
+
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top:10px; 
+    color:  rgb(53, 23, 44);
+}
+h2{
+
+    font-family: Helvetica;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color:  rgb(53, 23, 44);
+}
+b{
+    font-family: Helvetica;
+    font-size: 16px;  
+    color:  rgb(53, 23, 44);
+
+}
+li,p{
+    font-size: 18px;  
+    color:  rgb(53, 23, 44);
+
+}

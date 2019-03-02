@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(53, 23, 44);
+
+}
+main{
+    position: absolute;
+    width: 630px;
+    margin: -100px 0 0 -200px;
+    top: 30%;
+    left: 41%;
+    padding: 25px;
+
+
+}

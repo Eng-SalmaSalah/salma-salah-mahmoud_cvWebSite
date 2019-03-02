@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registeration</title>
+    <link rel="stylesheet" type="text/css" href="registeration.css">
+</head>
+
+<body>
+    <main>
+        <form action="www.google.com">
+            <fieldset>
+                <h2>
+                    Account information:
+                </h2>
+                <b>User name:*</b>
+                <input type="text" name="user name" maxlength="10" required>
+                <br>
+                <br>
+                <b>Password:*</b>
+                <input type="password" name="password" required>
+                <br>
+                <br>
+                <b>Confirm password:*</b>
+                <input type="password" name="password confirmation" required>
+                <br>
+                <br>
+                <b>Credit card no:*</b>
+                <input type="number" name="creditcardNum" max="99999999999999" min="0" required>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <h2>
+                    Personal information:
+                </h2>
+                <b>Name:*</b>
+                <input type="text" name="user name" maxlength="10" required>
+                <br>
+                <br>
+                <b>Date of birth:*</b>
+                <input type="password" name="password" required>
+                <br>
+                <br>
+                <b>Favourite colour:</b>
+                <input type="color" name="favcolor" value="#35172c">
+                <br>
+                <br>
+                <b>Profile photo(s):</b>
+                <input type="file" name="file">
+                <br>
+                <br>
+                <b>Favourite browser:</b>
+                <input type="text" list="browsers" />
+                <datalist id="browsers">
+                    <option value="internet explorer" />
+                    <option value="Google chrome" />
+                    <option value="mozzilla firefox" />
+                </datalist>
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <h2>
+                    Company information:
+                </h2>
+                <b>No of Employees:</b>
+                <input type="number" name="empNum" min="0" required>
+                <br>
+                <br>
+                <b>Estimated revenue:</b>
+                <input type="range">
+            </fieldset>
+            <br>
+            <br>
+            <fieldset>
+                <h2>
+                    Contact information:
+                </h2>
+                <b>Email address(es):*</b>
+                <input type="email" name="emailaddress" required>
+                <br>
+                <br>
+                <b>phone number:</b>
+                <input type="tel" />
+                <br>
+                <br>
+                <b>Website url:</b>
+                <input type="url">
+            </fieldset>
+            <br>
+            <div id="btns">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Cancel">
+            </div>
+            
+            <br>
+            
+        </form>
+
+    </main>
+</body>
+
+</html>
